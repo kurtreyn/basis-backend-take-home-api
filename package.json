@@ -1,0 +1,23 @@
+{
+  "name": "take-home-api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "camelize": "^1.0.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.23.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "papaparse": "^5.3.1"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0"
+  }
+}
